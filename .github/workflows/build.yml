@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - run: sudo apt install python2
+    - run: alias python=/usr/local/bin/python2.7
     - run: python --version
